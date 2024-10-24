@@ -49,3 +49,15 @@ From the inferential results, we can get our equation for our line of best fit. 
 ```{r}
 basicNN + geom_point() + ggtitle("SIMS~ARM")+ theme(plot.title = element_text(hjust = 0.5, size = 20))+ geom_smooth(method=lm)
 ```
+
+### Model2: SIMS~GRIP
+
+```{r}
+basicNN <- ggplot(data,aes(y=SIMS,x=GRIP))
+```
+
+```{r}
+basicNN + geom_point() + ggtitle("SIMS~GRIP")+ theme(plot.title = element_text(hjust = 0.5, size = 20))
+```
+
+The scatter plot shows a positive slope going upright. This is a visual correlation between SIMS~GRIP.
