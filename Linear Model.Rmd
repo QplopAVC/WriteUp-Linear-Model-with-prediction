@@ -41,4 +41,4 @@ model.1 <- lm(SIMS~ARM,data=data)
 summary.lm(model.1)
 ```
 
-
+From the inferential results, we can get our equation for our line of best fit. > SIMS = 0.054563 * ARM - 4.095160.
